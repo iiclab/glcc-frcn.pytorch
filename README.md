@@ -33,6 +33,11 @@ Other than above features, blue mackerel have round shape body shape, but chub m
 |![](assets/blue_mackerel.png)|![](assets/chub_mackerel.png)| ![](assets/hybrid_mackerel.png)
 |![](assets/goma_body.png) | ![](assets/masaba_body.png)| |
 
+Our final objective is detection and recognition.
+
+| Input | Output |
+|:---:|:---:|
+| ![](test_datas/Images/180119_111338_lined_goma8_camera1_image_0002.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
 
 
 ### 1-2.Model
@@ -90,6 +95,15 @@ We evaluated methods using own test dataset of mackerel.
 | ***VGG16-GLCC***    | VGG16     | ✓ | ✓ | **89.33** |   -  | 0.1479 |
 | Res101-GLCC   | ResNet101 | ✓ | ✓ | 76.78 |   -  | 0.1452 |
 
+#### Some result examples
+
+prediction label is shown. Red is accurate, and blue is mistake. (all red-line prediction is blue, because we did not count them for accuracy)
+
+| Blue mackerel | Chub mackerel | Hybrid |
+|:---:|:---:|:---:|
+| ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera1_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera1_image_0001.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera2_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera2_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera2_image_0001.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera3_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera3_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera3_image_0001.jpg) |
 
 ## 4.GLCC 
 
