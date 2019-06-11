@@ -28,7 +28,7 @@ While blue mackerels have dotted pattern abdomen, chub mackerel does not. Hybrid
 
 Other than above features, blue mackerel have round shape body shape, but chub mackerel eclipse like one. So, we used these features for accurate recognition.
 
-| Blue mackerel | Chub mackelre | Hybrid |
+| Blue mackerel | Chub mackerel | Hybrid |
 |:---:|:---:|:---:|
 |![](assets/blue_mackerel.png)|![](assets/chub_mackerel.png)| ![](assets/hybrid_mackerel.png)
 |![](assets/goma_body.png) | ![](assets/masaba_body.png)| |
