@@ -8,15 +8,11 @@ This is from faster r-cnn implemented with PyTorch (https://github.com/jwyang/fa
 
 This method is to classify mackerels into three category (blue mackerel, chub mackerle and hybrid (intermediate)).
 
-In original paper, we used 7class for detecting global and local features, but we used 3class in this implementation.
+***This needs GPU environment because original faster-rcnn.pytorch needs, too.*** If you find the method to use in CPU only environment, please tell me via issues or pull request:)
 
-***This needs GPU environment because original faster-rcnn.pytorch needs, too.***
+## 1.Description
 
-If you find the method to use in CPU only environment, please tell me via issues or pull request:)
-
-## Description
-
-### The objective
+### 1-1.The objective
 
 This is created under automatic mackerel categorization machine.
 
@@ -33,7 +29,7 @@ Other than above features, blue mackerel have round shape body shape, but chub m
 
 
 
-### Model
+### 1-2.Model
 
 The overall architecture is depicted in below image.
 
@@ -41,13 +37,14 @@ This prposed method is composed in 2 stage, the one is Faster R-CNN and the othe
 
 ![](assets/sabaster_rcnn.png)
 
-Algorythm
+**Algorythm**
 
 1. The model detected global region (= overall mackerel region) and local region (= abdomen region of mackerel) by Faster R-CNN
 2. GLCC, followed neural network, predicts mackerel species using global and local regions.
 
+(Warning)In original paper, we used 7class for detecting global and local features, but we used 3class in this implementation.
 
-## Install
+## 2.Install
 
 Follow faster-rcnn.pytorch
 
@@ -61,21 +58,21 @@ $ cd lib
 $ sh make.sh
 ```
 
-## Result
+## 3.Result
 
 We evaluated methods using own test dataset of mackerel.
 
-### Feature
+### 3-1.Feature
 - Global ... using mackerel's overall feature called *Global feature*
 - Local ... using mackerel's partial feature called *Local feature*
 - GLCC ... using both overall and partial features
 
-### Evaluation Metric
+### 3-2.Evaluation Metric
 - Accuracy
 - Detection ... @IoU=0.5
 - speed ... average processing time for one image
 
-
+### 3-3. Result
 | Method | Backbone | Global feature | Local feature | Accuracy(%) | Detection(%) | speed[sec] |
 | :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | VGG16-Global  | VGG16     | ✓ |   | 87.64 | 100 | 0.1144 |
@@ -86,9 +83,9 @@ We evaluated methods using own test dataset of mackerel.
 | Res101-GLCC   | ResNet101 | ✓ | ✓ | 76.78 |   -  | 0.1452 |
 
 
-## GLCC 
+## 4.GLCC 
 
-### train
+### 4-1.train
 ```bash
 # VGG16
 $ sh scripts/train_vgg_2class.sh
@@ -99,7 +96,7 @@ $ sh scripts/train_res101_2class.sh
 $ sh scripts/train_res101_glcc_2class.sh
 ```
 
-### test
+### 4-2.test
 
 #### VGG16 model
 
@@ -122,13 +119,13 @@ $ python demo_glcc_2class.py --net vgg16
 ```
 
 
-## Other model tips
+## 5.Other model tips
 
 This is other back-bone model tips.
 
 However, I do not prepare pre-trained model, sorry:(
 
-#### ResNet-101 model
+### 5-1.GLCC + ResNet-101 model
 
 Pre-trained model is not still prepared.
 
@@ -136,8 +133,8 @@ Pre-trained model is not still prepared.
 $ python demo_glcc_2class.py --net res101
 ```
 
-## Global feature
-### train
+### 5-2.Global feature
+#### train
 
 ```bash
 # VGG16
@@ -147,7 +144,7 @@ $ sh scripts/train_vgg_global.sh
 # sh scripts/train_res101_global.sh
 ```
 
-### test
+#### test
 
 Pre-trained model is not still prepared.
 
@@ -159,8 +156,8 @@ $ python demo_saba_global.py --net vgg16
 $ python demo_saba_global.py --net res101
 ```
 
-## Local feature
-### train
+### 5-3.Local feature
+#### train
 
 ```bash
 # VGG16
@@ -170,7 +167,7 @@ $ sh scripts/train_vgg_local.sh
 $ sh scripts/train_res101_local.sh
 ```
 
-### test
+#### test
 
 Pre-trained model is not still prepared.
 
