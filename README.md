@@ -10,11 +10,11 @@ This method is to classify mackerels into three category (blue mackerel, chub ma
 
 ***This needs GPU environment because original faster-rcnn.pytorch needs, too.*** If you find the method to use in CPU only environment, please tell me via issues or pull request:)
 
-1. ![Description](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1description) (![The Objective](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1-1the-objective), ![Model](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1-2model) )
-2. ![Install](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#2install)
-3. ![Result](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#3result)
-4. ![GLCC train and test (we prepare pre-trained model)](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#4glcc)
-5. ![Other model tips (we do not prepare pre-trained model)](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#5other-model-tips)
+1. [Description](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1description) ([The Objective](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1-1the-objective), [Model](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#1-2model) )
+2. [Install](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#2install)
+3. [Result](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#3result)
+4. [GLCC train and test (we prepare pre-trained model)](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#4glcc)
+5. [Other model tips (we do not prepare pre-trained model)](https://github.com/yoyoyo-yo/glcc-frcn.pytorch#5other-model-tips)
 
 ## 1.Description
 
