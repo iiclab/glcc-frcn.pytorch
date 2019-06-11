@@ -37,7 +37,7 @@ Our final objective is detection and recognition.
 
 | Input | Output |
 |:---:|:---:|
-| ![](test_datas/Images/180119_111338_lined_goma8_camera1_image_0002.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera1_image_0002_orig.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
 
 
 ### 1-2.Model
