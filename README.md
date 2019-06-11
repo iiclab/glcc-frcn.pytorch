@@ -115,7 +115,7 @@ $ cd -
 
 Test demonstration is below.
 
-Detection and recognition result images will be stored in *result_vgg16_glcc_2class* (You can change directory path by changing result¥_dir in demo¥_glcc¥_2class.py).
+Detection and recognition result images will be stored in *result_vgg16_glcc_2class* (You can change directory path by changing *result_dir* in demo_glcc_2class.py).
 
 ```bash
 $ python demo_glcc_2class.py --net vgg16
