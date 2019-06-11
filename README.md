@@ -37,7 +37,7 @@ Our final objective is detection and recognition.
 
 | Input | Output |
 |:---:|:---:|
-| ![](assets/180119_111338_lined_goma8_camera1_image_0002_orig.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera1_image_0002_ori.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
 
 
 ### 1-2.Model
@@ -101,9 +101,9 @@ prediction label is shown. Red is accurate, and blue is mistake. (all red-line p
 
 | Blue mackerel | Chub mackerel | Hybrid |
 |:---:|:---:|:---:|
-| ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera1_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera1_image_0001.jpg) |
-| ![](assets/180119_111338_lined_goma8_camera2_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera2_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera2_image_0001.jpg) |
-| ![](assets/180119_111338_lined_goma8_camera3_image_0002.jpg) | ![](180119_113321_lined_masaba15_camera3_image_0001.jpg) | ![](180119_112344_lined_hybrid15_camera3_image_0001.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) | ![](assets/180119_113321_lined_masaba15_camera1_image_0001.jpg) | ![](assets/180119_112344_lined_hybrid15_camera1_image_0001.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera2_image_0002.jpg) | ![](assets/180119_113321_lined_masaba15_camera2_image_0001.jpg) | ![](assets/180119_112344_lined_hybrid15_camera2_image_0001.jpg) |
+| ![](assets/180119_111338_lined_goma8_camera3_image_0002.jpg) | ![](assets/180119_113321_lined_masaba15_camera3_image_0001.jpg) | ![](assets/180119_112344_lined_hybrid15_camera3_image_0001.jpg) |
 
 ## 4.GLCC 
 
