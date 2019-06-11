@@ -41,6 +41,8 @@ The overall architecture is depicted in below image.
 
 This prposed method is composed in 2 stage, the one is Faster R-CNN and the other is GLCC(Global and Local features Conjunct Classifier).
 
+This model can be trained end-to-end. In experiment, we trained Faster R-CNN (1-st stage) to detect each region, next we trained GLCC and former VGG16 backbone.
+
 ![](assets/sabaster_rcnn.png)
 
 **Algorythm**
