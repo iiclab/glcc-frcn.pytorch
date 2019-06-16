@@ -26,12 +26,17 @@ We have to classify mackerels to three species including blue mackerel, chub mac
 
 While blue mackerels have dotted pattern abdomen, chub mackerel does not. Hybrids are difficult to distinguish because they have thin dotted pattern abdomen.
 
-Other than above features, blue mackerel have round shape body shape, but chub mackerel eclipse like one. So, we used these features for accurate recognition.
-
 | Blue mackerel | Chub mackerel | Hybrid |
 |:---:|:---:|:---:|
 |![](assets/blue_mackerel.png)|![](assets/chub_mackerel.png)| ![](assets/hybrid_mackerel.png)
 |![](assets/goma_body.png) | ![](assets/masaba_body.png)| |
+
+Other than above features, blue mackerels have round body shape, but chub mackerels have eclipse like one. So, we used these features for accurate recognition. To get body shape in image, we irradiated red laser from diagnoly above, and we could use body features as carvature of red laser on mackerel's abdomen.
+
+| Overall sorting machine | red laser mechanism |
+|:---:|:---:|
+| ![](assets/machine.png) | ![](assets/saba_redline.png) |
+| | red rectangle is global feature and green one is local feature. |
 
 Our final objective is detection and recognition.
 
@@ -40,7 +45,7 @@ Our final objective is detection and recognition.
 | ![](assets/180119_111338_lined_goma8_camera1_image_0002_ori.jpg) | ![](assets/180119_111338_lined_goma8_camera1_image_0002.jpg) |
 
 
-### 1-2.Model
+### 1-2.Classification Algorythm
 
 The overall architecture is depicted in below image.
 
