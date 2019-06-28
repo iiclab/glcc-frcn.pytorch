@@ -91,15 +91,18 @@ We evaluated methods using own test dataset of mackerel.
 - speed ... average processing time for one image
 
 ### 3-3. Result
+
+- FRCN ... Faster R-CNN
+
 | Method | Backbone | Global feature | Local feature | Accuracy(%) | Detection(%) | speed[sec] |
 | :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | simple CNN | VGG16 | | | 67.98 | | 0.01 |
-| VGG16-Global  | VGG16     | ✓ |   | 87.64 | 100 | 0.1144 |
-| VGG16-Local   | VGG16     |   | ✓ | 70.79 | 96.44 | 0.1166 |
-| Res101-Global | ResNet101 | ✓ |   | 73.22 | 100 | 0.1120 |
-| Res101-Local  | ResNet101 |   | ✓ | 80.15 | 97.00 | 0.1142 |
-| ***VGG16-GLCC***    | VGG16     | ✓ | ✓ | **89.33** |   -  | 0.1479 |
-| Res101-GLCC   | ResNet101 | ✓ | ✓ | 76.78 |   -  | 0.1452 |
+| FRCN-VGG16-Global  | VGG16     | ✓ |   | 87.64 | 100 | 0.1144 |
+| FRCN-VGG16-Local   | VGG16     |   | ✓ | 70.79 | 96.44 | 0.1166 |
+| FRCN-Res101-Global | ResNet101 | ✓ |   | 73.22 | 100 | 0.1120 |
+| FRCN-Res101-Local  | ResNet101 |   | ✓ | 80.15 | 97.00 | 0.1142 |
+| ***FRCN-VGG16-GLCC***    | VGG16     | ✓ | ✓ | **89.33** |   -  | 0.1479 |
+| FRCN-Res101-GLCC   | ResNet101 | ✓ | ✓ | 76.78 |   -  | 0.1452 |
 
 #### Some result examples
 
