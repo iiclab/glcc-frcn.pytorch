@@ -136,8 +136,8 @@ You can get pre-trained model by next command.
 ```bash
 $ mkdir models
 $ cd models
-$ wget https://drive.google.com/open?id=11bXl1mAVUDS4oAS8a4iiFfVU_uRw8px_ -O glcc_1_100_833.pth
-$ wget https://drive.google.com/open?id=17cbX9OLMpXrerHGVgtl5YkJ7nUZRa967 -O glcc_faster_rcnn_1_100_833.pth
+$ wget http://www.iic.ecei.tohoku.ac.jp/~tomo/glcc/glcc_1_100_833.pth
+$ wget http://www.iic.ecei.tohoku.ac.jp/~tomo/glcc/glcc_faster_rcnn_1_100_833.pth
 $ cd -
 ```
 
